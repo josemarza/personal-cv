@@ -42,10 +42,17 @@
 
 .social-icons {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-
+    
 }
+
+#social-bottom {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .text-light {
     color: #f8f9fa !important;
 }
