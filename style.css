@@ -1,0 +1,86 @@
+.fondo {
+  position: relative;
+  height: 60vh;
+  min-height: 200px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(fondo.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.header-subtitle {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "verdana";
+    padding-left: 20px;
+}
+
+.header-title {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    font-family: "verdana";
+}
+
+.header-mono {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20;
+    font-family: "verdana";
+    padding-left: 20px;
+}
+.social-item {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text-light {
+    color: #f8f9fa !important;
+}
+
+a:link {
+    color: #F85C70;
+}
+a:visited {
+    color: #F85C70;
+}
+
+a:hover {
+    color: yellow
+}
+
+a:active {
+    color: red;
+}
+
+.boton-cv {
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    margin-left: 20px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(210, 30, 96);
+}
+.info-personal {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0;
+}
+.fotojose {
+    height: 100px;
+}
+.imageposition {
+    text-align: center;
+}
