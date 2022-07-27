@@ -11,7 +11,7 @@
   color: #fff;
 }
 
-.header-subtitle {
+.subtitulo {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;
@@ -19,7 +19,7 @@
     padding-left: 20px;
 }
 
-.header-title {
+.titulo {
     font-size: 80px;
     margin-top: 0;
     margin-bottom: 0;
@@ -27,7 +27,7 @@
     font-family: "verdana";
 }
 
-.header-mono {
+.subsubtitulo {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 50px;
@@ -88,15 +88,16 @@ a:active {
     text-align: center;
 }
 .fotojose {
-    text-align: center;
     height: 150px;
     position: relative;
     justify-content: center;
 }
-.imageposition {
-    text-align: center;
+.posicion-imagen {
+    display: flex;
+    justify-content: center;
     margin-bottom: -50px;
     margin-top: -100px;   
+    
 }
 .columnas {
     margin: 10px;
@@ -117,4 +118,15 @@ a:active {
 .left-text {
     text-align: left;
     font-size: 20px;
+}
+
+.columna2 {
+    margin-right: 50px;
+    margin-left: 50px;
+    column-count: 3;    
+    grid-gap: 50px;
+    column-rule-style: solid;
+    column-rule-color:  rgb(210, 30, 96) ;
+
+
 }
