@@ -30,7 +30,7 @@
 .header-mono {
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 20;
+    margin-bottom: 50px;
     font-family: "verdana";
     padding-left: 20px;
 }
@@ -84,10 +84,29 @@ a:active {
 .info-personal {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 0;
+    text-align: center;
 }
 .fotojose {
-    height: 100px;
+    text-align: center;
+    height: 150px;
+    position: relative;
+    justify-content: center;
+
 }
 .imageposition {
     text-align: center;
+    margin-bottom: -50px;
+    margin-top: -100px;
+    
+}
+.columnas {
+    margin: 10px;
+    column-count: 3;
+    column-width: 20px;
+    column-gap: 200px;
+    column-rule-style: solid;
+}
+.center-text {
+    text-align: center;
+    font-size: 20px;
 }
